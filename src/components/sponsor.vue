@@ -5,14 +5,14 @@ import Autoplay from 'embla-carousel-autoplay'
 
 const title = 'Sponsors'
 const images = ref([
-  { src: '/src/img/sponsor1.webp', alt: 'Sponsor 1 Logo' },
-  { src: '/src/img/sponsor2.webp', alt: 'Sponsor 2 Logo' },
-  { src: '/src/img/sponsor3.png', alt: 'Sponsor 3 Logo' },
-  { src: '/src/img/sponsor4.webp', alt: 'Sponsor 4 Logo' },
-  { src: '/src/img/sponsor5.webp', alt: 'Sponsor 5 Logo' },
-  { src: '/src/img/sponsor6.png', alt: 'Sponsor 6 Logo' },
-  { src: '/src/img/sponsor7.webp', alt: 'Sponsor 7 Logo' },
-  { src: '/src/img/sponsor8.webp', alt: 'Sponsor 8 Logo' },
+  { src: '/sponsor1.webp', alt: 'Sponsor 1 Logo' },
+  { src: '/sponsor2.webp', alt: 'Sponsor 2 Logo' },
+  { src: '/sponsor3.png', alt: 'Sponsor 3 Logo' },
+  { src: '/sponsor4.webp', alt: 'Sponsor 4 Logo' },
+  { src: '/sponsor5.webp', alt: 'Sponsor 5 Logo' },
+  { src: '/sponsor6.png', alt: 'Sponsor 6 Logo' },
+  { src: '/sponsor7.webp', alt: 'Sponsor 7 Logo' },
+  { src: '/sponsor8.webp', alt: 'Sponsor 8 Logo' },
 ])
 
 // --- Embla Carousel Setup ---

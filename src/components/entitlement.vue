@@ -45,12 +45,12 @@ export default {
     return {
       title: 'Race Entitlements',
       entitlements: [
-        { title: 'Drawstring Bag', src: '/src/img/entitlements_bag.webp', alt: 'Race drawstring bag' },
-        { title: 'Water Bottle', src: '/src/img/entitlements_bottle.webp', alt: 'Reusable water bottle' },
-        { title: 'Consumables', src: '/src/img/entitlements_consumables.webp', alt: 'Energy gels and snacks' },
-        { title: 'Race Bib', src: '/src/img/entitlements_racebib.webp', alt: 'Numbered race bib with timing chip' },
-        { title: 'Finisher Towel', src: '/src/img/entitlements_towels.webp', alt: 'Quick-dry finisher towel' },
-        { title: 'Sponsor Vouchers', src: '/src/img/entitlements_voucher.webp', alt: 'Discount vouchers from sponsors' },
+        { title: 'Drawstring Bag', src: '/entitlements_bag.webp', alt: 'Race drawstring bag' },
+        { title: 'Water Bottle', src: '/entitlements_bottle.webp', alt: 'Reusable water bottle' },
+        { title: 'Consumables', src: '/entitlements_consumables.webp', alt: 'Energy gels and snacks' },
+        { title: 'Race Bib', src: '/entitlements_racebib.webp', alt: 'Numbered race bib with timing chip' },
+        { title: 'Finisher Towel', src: '/entitlements_towels.webp', alt: 'Quick-dry finisher towel' },
+        { title: 'Sponsor Vouchers', src: '/entitlements_voucher.webp', alt: 'Discount vouchers from sponsors' },
       ],
     }
   },
