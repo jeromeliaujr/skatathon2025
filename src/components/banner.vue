@@ -5,7 +5,7 @@ import Autoplay from 'embla-carousel-autoplay'
 
 // Assumes images are moved to public/img/skatathonpics/
 const images = ref([
-  { src: '/src/img/skatathonpics/banner.png', alt: 'Skatathon event photo 1' },
+  { src: '../img/skatathonpics/banner.png', alt: 'Skatathon event photo 1' },
   // { src: 'src/img/skatathonpics/skatathon2.jpg', alt: 'Skatathon event photo 2' },
   // { src: 'src/img/skatathonpics/skatathon3.jpg', alt: 'Skatathon event photo 3' },
   // { src: 'src/img/skatathonpics/skatathon4.jpg', alt: 'Skatathon event photo 4' },
