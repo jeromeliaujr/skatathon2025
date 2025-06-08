@@ -16,7 +16,7 @@ export default {
   <!-- Apply background image here with fixed attachment -->
   <div
     class="hero min-h-[75vh] bg-cover bg-center bg-fixed" 
-    style="background-image: url('src/img/skatathonpics/about2.jpg');"
+    style="background-image: url('/src/img/skatathonpics/about2.jpg');"
   >
     <div class="hero-overlay bg-opacity-80" style="background-color: rgba(50,50,50,0.8)"></div> <!-- Adjusted opacity slightly -->
 

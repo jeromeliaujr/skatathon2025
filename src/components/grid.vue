@@ -3,12 +3,12 @@ export default {
   data() {
     return {
       images: [
-        'src/img/skatathonpics/skatathon1.JPG',
-        'src/img/skatathonpics/skatathon2.JPG',
-        'src/img/skatathonpics/skatathon3.JPG',
-        'src/img/skatathonpics/skatathon4.JPG',
-        'src/img/skatathonpics/skatathon5.JPG',
-        'src/img/skatathonpics/skatathon6.JPG',
+        '/src/img/skatathonpics/skatathon1.JPG',
+        '/src/img/skatathonpics/skatathon2.JPG',
+        '/src/img/skatathonpics/skatathon3.JPG',
+        '/src/img/skatathonpics/skatathon4.JPG',
+        '/src/img/skatathonpics/skatathon5.JPG',
+        '/src/img/skatathonpics/skatathon6.JPG',
       ]
     }
   }
