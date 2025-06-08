@@ -1,0 +1,58 @@
+
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+@plugin "@tailwindcss/typography";
+
+@plugin "daisyui";
+
+@font-face {
+  font-family: 'Empera';
+  src: url('../assets/Empera/Empera-Regular.ttf'),;
+}
+
+@font-face {
+  font-family: 'Varsity';
+  src: url('../assets/VarsityTeamFont/VarsityTeam.otf'),;
+}
+
+@theme{
+  --font-empera: Empera;
+  --font-varsity: Varsity;
+}
+
+@plugin "daisyui/theme" {
+  name: "urban";
+  default: true;
+  prefersdark: true;
+  color-scheme: "light";
+  --color-base-100: oklch(97% 0.014 254.604);
+  --color-base-200: oklch(93% 0.032 255.585);
+  --color-base-300: oklch(80% 0.105 251.813);
+  --color-base-content: oklch(24.29292378907832% 0.162 267.9067267457388);
+  --color-primary: oklch(74% 0.16 232.661);
+  --color-primary-content: oklch(44% 0.03 256.802);
+  --color-secondary: oklch(80% 0.105 251.813);
+  --color-secondary-content: oklch(98% 0.003 247.858);
+  --color-accent: oklch(0% 0 0);
+  --color-accent-content: oklch(100% 0 0);
+  --color-neutral: oklch(26% 0 0);
+  --color-neutral-content: oklch(98% 0 0);
+  --color-info: oklch(60% 0.126 221.723);
+  --color-info-content: oklch(98% 0.019 200.873);
+  --color-success: oklch(64% 0.2 131.684);
+  --color-success-content: oklch(98% 0.031 120.757);
+  --color-warning: oklch(68% 0.162 75.834);
+  --color-warning-content: oklch(98% 0.026 102.212);
+  --color-error: oklch(58% 0.253 17.585);
+  --color-error-content: oklch(96% 0.015 12.422);
+  --radius-selector: 1rem;
+  --radius-field: 1rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 1;
+}
