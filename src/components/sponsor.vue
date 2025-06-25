@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import emblaCarouselVue from 'embla-carousel-vue'
 import Autoplay from 'embla-carousel-autoplay'
 
-const title = 'Sponsors'
+const title = 'SPONSORS'
 const images = ref([
   { src: '/sponsor1.webp', alt: 'Sponsor 1 Logo' },
   { src: '/sponsor2.webp', alt: 'Sponsor 2 Logo' },
@@ -33,7 +33,7 @@ const [emblaRef] = emblaCarouselVue(
   <div class="hero bg-base-100 min-h-[50vh] p-5">
     <div class="hero-content text-center w-full px-4">
       <div class="flex flex-col items-center w-full">
-        <h1 class="text-5xl font-bold mb-20 text-left font-varsity">{{ title }}</h1>
+        <h1 class="text-5xl mb-20 text-left font-bold font-varsity">{{ title }}</h1>
         <!-- Embla Viewport: ref and overflow hidden required -->
          
         <div class="embla" ref="emblaRef">

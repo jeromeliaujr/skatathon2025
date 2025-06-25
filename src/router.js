@@ -2,7 +2,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 // Import the ONE main component that contains all your sections
-import MainPageView from './components/banner.vue'; // Or BannerView, App.vue, etc.
+import MainPageView from './components/bannerv2.vue'; // Or BannerView, App.vue, etc.
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL), // Or createWebHashHistory

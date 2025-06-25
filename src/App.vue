@@ -7,9 +7,10 @@ import sponsor from './components/sponsor.vue'
 import category from './components/category.vue'
 import guide from './components/guide.vue'
 import entitlement from './components/entitlement.vue'
-import foot from './components/foot.vue'
+import social from './components/social.vue'
 import grid from './components/grid.vue'
 import about from './components/about.vue'
+import detail from './components/detail.vue'
 </script>
 <template>
   <header>
@@ -17,6 +18,7 @@ import about from './components/about.vue'
   </header>
   <main>
     <banner />
+    <detail/>
     <countdown />
     <about />
     <section id="guide">
@@ -33,6 +35,6 @@ import about from './components/about.vue'
     <section id="faq">
       <faq />
     </section>
-    <foot />
+    <social />
   </main>
 </template>

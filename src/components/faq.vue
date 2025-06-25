@@ -11,7 +11,7 @@ export default {
         {
           question: 'What is the minimum age to participate in Skatathon 2025?',
           answer:
-            'All age groups are welcome. However, with the safety of our younger participants in mind, we urge parents to assess the suitability of the event for their children based on their skating abilities and endurance levels. For skaters under the age of 18, the physical copy of our indemnity form with parental consent must be shown at the point of registration. You may print the PDF version found in registration form, or our confirmation email.',
+            'All age groups are welcome. However, with the safety of our younger participants in mind, we urge parents to assess the suitability of the event for their children based on their skating abilities and endurance levels. For skaters under the age of 18, please display a copy of our indemnity form with parental consent at the point of registration. You may print the PDF version found in registration form, or our confirmation email.',
         },
         {
           question: 'How do I know if my entry has been accepted?',
@@ -23,11 +23,11 @@ export default {
         },
         {
           question: 'Can I transfer my race registration if I wish to withdraw from the race?',
-          answer: 'All race registration are strictly non-transferable',
+          answer: 'All race registration are strictly non-transferable.',
         },
         {
           question: 'Can I upgrade / downgrade my race category',
-          answer: 'TBC',
+          answer: 'Unfortunately, changes to race categories are not allowed once registration is confirmed. Please double-check your category before finalizing your registration.',
         },
         {
           question: 'I do not have a helmet. Can I still join Skatathon?',
@@ -44,16 +44,36 @@ export default {
           answer:
             'Please approach the nearest first aid points or bicycle sweepers along the route. If not, call the safety number behind the race bib. We will also broadcast the safety number on our Facebook and Instagram nearer to the race day.',
         },
+        {
+          question: 'When is the last date to register?',
+          answer:
+            'The last date to register is on the 31 July 2025.',
+        },
+        {
+          question: 'I missed the registration deadline. Can I still join the race?',
+          answer:
+            'Unfortunately, once the registration has closed, we are unable to accept any late entries for this year’s race. We hope to see you for our future events!',
+        },
+        {
+          question: 'Can I change my shirt size?',
+          answer:
+            'Shirt sizes are final once submitted during registration. Please ensure you select the correct size before confirming your entry. ',
+        },
+        {
+          question: 'My question is not in the FAQ?',
+          answer:
+            'Feel free Reach out to skating@sa.smu.edu.sg if you have other enquiries.',
+        },
       ],
       race: [
         {
           question: 'When is Skatathon 2025?',
           answer:
-            'Skatathon 2025 will be held on Sunday, 31 August 2025',
+            'Skatathon 2025 will be held on Sunday, 31 August 2025 from 0645 - 1330.',
         },
         {
           question: 'Where will the race be held',
-          answer: 'The race will be held at Passion Wave @ Marina Bay',
+          answer: 'The race will be held at Passion Wave @ Marina Bay.',
         },
         {
           question: "How do I know which wave I'm assigned to",
@@ -65,8 +85,12 @@ export default {
           answer: 'Participants who do not return by 12:30pm would not have their timings recorded.',
         },
         {
-          question: 'When will I know my race timing?',
-          answer: 'Race timings are timed manually and will be posted on our Instagram page before 17 September 2025.',
+          question: 'Where is the starting and ending point?',
+          answer: 'Starting Point: Area Beneath the Bay East Bridge, Ending Point: PassionWave @ Marina Bay.',
+        },
+        {
+          question: 'How do I get to the venue?',
+          answer: 'The nearest MRT station is Tanjiong Rhu. For more details head over to our instagram page for details on how to get to Passion Wave @ Marina Bay.',
         },
         {
           question: 'Are there any prizes?',
@@ -84,7 +108,7 @@ export default {
   <div class="hero bg-base-200 min-h-[50vh]">
     <div class="hero-content text-center">
       <div class="max-w-8xl w-full">
-        <h1 class="text-5xl font-bold mt-10 mb-10 font-varsity">{{ title }}</h1>
+        <h1 class="text-5xl mt-10 mb-10 font-bold font-varsity">{{ title }}</h1>
         <div class="tabs tabs-box flex justify-center">
           <input type="radio" name="my_tabs_1" class="tab text-lg" aria-label="Registration" checked="checked"/>
           <div class="tab-content pt-10">

@@ -76,9 +76,9 @@ defineProps({
         </ul>
       </div>
       <!-- Brand/Logo -->
-      <!-- <a class="btn btn-ghost text-xl font-varsity">SKATATHON 2025</a> -->
-      <button class="btn-xl	btn-circle">
-        <img src="/src/img/logo.PNG" />
+      <!-- <a class="btn btn-ghost text-xl font-archi">SKATATHON 2025</a> -->
+      <button class="btn-xl btn-circle">
+        <img src="/logo.png" />
       </button>
     </div>
 
@@ -86,23 +86,29 @@ defineProps({
     <nav class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
         <li>
-          <RouterLink to="#guide" class="text-xl font-varsity">{{ link1 }}</RouterLink>
+          <RouterLink to="#guide" class="text-xl font-archi">{{ link1 }}</RouterLink>
         </li>
         <li>
-          <RouterLink to="#category" class="text-xl font-varsity">{{ link2 }}</RouterLink>
+          <RouterLink to="#category" class="text-xl font-archi">{{ link2 }}</RouterLink>
         </li>
         <li>
-          <RouterLink to="#sponsor" class="text-xl font-varsity">{{ link3 }}</RouterLink>
+          <RouterLink to="#sponsor" class="text-xl font-archi">{{ link3 }}</RouterLink>
         </li>
         <li>
-          <RouterLink to="#faq" class="text-xl font-varsity">{{ link4 }}</RouterLink>
+          <RouterLink to="#faq" class="text-xl font-archi">{{ link4 }}</RouterLink>
         </li>
       </ul>
     </nav>
 
     <!-- Navbar End Section -->
     <div class="navbar-end">
-      <a class="btn btn-secondary text-lg font-varsity">{{ link5 }}</a>
+      <a
+        class="btn text-lg font-bold"
+        href="https://www.eventbrite.sg/e/skatathon-2025-tickets-1375881010139?aff=oddtdtcreator"
+        target="_blank"
+      >
+        {{ link5 }}
+      </a>
     </div>
   </div>
 </template>
