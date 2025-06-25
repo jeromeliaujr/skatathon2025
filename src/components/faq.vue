@@ -62,7 +62,7 @@ export default {
         {
           question: 'My question is not in the FAQ?',
           answer:
-            'Feel free Reach out to skating@sa.smu.edu.sg if you have other enquiries.',
+            'Feel free to reach out to skating@sa.smu.edu.sg if you have other enquiries.',
         },
       ],
       race: [
@@ -108,7 +108,7 @@ export default {
   <div class="hero bg-base-200 min-h-[50vh]">
     <div class="hero-content text-center">
       <div class="max-w-8xl w-full">
-        <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold font-varsity mt-10 mb-10">{{ title }}</h1>
+        <h1 class="text-4xl md:text-5xl font-bold font-varsity mt-10 mb-10">{{ title }}</h1>
         <div class="tabs tabs-box flex justify-center">
           <input type="radio" name="my_tabs_1" class="tab text-lg" aria-label="Registration" checked="checked"/>
           <div class="tab-content pt-10">
@@ -135,9 +135,9 @@ export default {
             >
               <input type="checkbox" name="my-accordion-2" />
 
-              <div class="collapse-title font-semibold text-lg text-left">{{ item.question }}</div>
+              <div class="collapse-title font-semibold text-lg sm:text-xl md:text-2xl  text-left">{{ item.question }}</div>
               <div class="collapse-content text-sm">
-                <p class="text-lg text-left">{{ item.answer }}</p>
+                <p class="sm:text-lg md:text-xl text-left">{{ item.answer }}</p>
               </div>
             </div>
           </div>

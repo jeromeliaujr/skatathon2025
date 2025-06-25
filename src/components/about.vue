@@ -35,7 +35,7 @@ export default {
         <!-- Added max-width -->
         <h1 class="mb-5 text-4xl md:text-5xl font-bold font-varsity">{{ headline }}</h1>
         <!-- Responsive text -->
-        <p class="text-lg md:text-xl mb-6">
+        <p class="sm:text-lg md:text-xl mb-6">
           <!-- Adjusted size/margin -->
           {{ details }}
         </p>
