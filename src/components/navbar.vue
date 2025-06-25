@@ -78,7 +78,7 @@ defineProps({
       <!-- Brand/Logo -->
       <!-- <a class="btn btn-ghost text-xl font-archi">SKATATHON 2025</a> -->
       <button class="btn-xl btn-circle">
-        <img src="/logo.png" />
+        <img src="/logo.PNG" />
       </button>
     </div>
 
