@@ -3,7 +3,7 @@
     <!-- Added vertical padding -->
     <!-- Added horizontal padding px-4 -->
     <div class="hero-content text-center flex flex-col items-center">
-      <h1 class="text-3xl md:text-4xl lg:text-5xl mt-6 md:mt-8 mb-6 md:mb-10 font-archi">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl mt-6 md:mt-8 mb-6 md:mb-10 font-varsity">
         GALLERY
       </h1>
       <div class="embla">

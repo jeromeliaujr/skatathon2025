@@ -1,6 +1,6 @@
 <template>
   <div class="bg-secondary carousel-wrapper mx-auto px-4 w-full">
-    <div class="embla overflow-hidden h-32">
+    <div class="embla overflow-hidden h-20 sm:h-32">
       <div class="embla__viewport overflow-hidden w-full h-full" ref="viewport">
         <div class="embla__container flex h-full">
           <div
@@ -10,7 +10,7 @@
           >
             <div class="embla__slide__content flex items-center justify-center h-full p-4 mr-15">
               <font-awesome-icon :icon="slide.icon" />
-              <p class="text-5xl font-bold font-varsity">
+              <p class="text-3xl sm:text-4xl md:text-5xl font-bold font-varsity">
                 <!-- <p class="text-xl md:text-5xl lg:text-6xl font-bold font-archi text-center"> -->
                 {{ slide.title }}
               </p>

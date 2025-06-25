@@ -33,7 +33,7 @@ const [emblaRef] = emblaCarouselVue(
   <div class="hero bg-base-100 min-h-[50vh] p-5">
     <div class="hero-content text-center w-full px-4">
       <div class="flex flex-col items-center w-full">
-        <h1 class="text-5xl mb-20 text-left font-bold font-varsity">{{ title }}</h1>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold font-varsity text-left mb-20">{{ title }}</h1>
         <!-- Embla Viewport: ref and overflow hidden required -->
          
         <div class="embla" ref="emblaRef">
@@ -79,5 +79,18 @@ const [emblaRef] = emblaCarouselVue(
 .embla__slide__content {
   /* Ensure content wrapper also takes height */
   height: 100%;
+}
+
+/* On small screens, show 1 slide per view */
+@media (max-width: 640px) {
+  .embla__slide {
+    flex: 0 0 100%;
+  }
+}
+/* Optional: Show 2 slides on medium screens */
+@media (min-width: 641px) and (max-width: 1023px) {
+  .embla__slide {
+    flex: 0 0 50%;
+  }
 }
 </style>

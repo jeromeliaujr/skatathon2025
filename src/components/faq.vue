@@ -108,7 +108,7 @@ export default {
   <div class="hero bg-base-200 min-h-[50vh]">
     <div class="hero-content text-center">
       <div class="max-w-8xl w-full">
-        <h1 class="text-5xl mt-10 mb-10 font-bold font-varsity">{{ title }}</h1>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold font-varsity mt-10 mb-10">{{ title }}</h1>
         <div class="tabs tabs-box flex justify-center">
           <input type="radio" name="my_tabs_1" class="tab text-lg" aria-label="Registration" checked="checked"/>
           <div class="tab-content pt-10">
