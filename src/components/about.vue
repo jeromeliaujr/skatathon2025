@@ -5,7 +5,7 @@ export default {
     return {
       headline: 'THE ONLY SKATING MARATHON IN SINGAPORE',
       details:
-        "SMU SKATATHON 2025 is the sixth official skating marathon, proudly organized by the SMU SMUX Skating Team. Featuring four dynamic categories for skaters of every skill level, this event is your chance to push your limits, connect with other passionate skaters and be part of the growing skating community. Join us for a day filled with excitement and unforgetable memories. It's an event you would not want to miss!",
+        "SMU SKATATHON 2025 is the sixth official skating marathon, proudly organized by the SMU SMUX Skating Team. Featuring four dynamic categories for skaters of every skill level, this event is your chance to push your limits, connect with other passionate skaters and be part of the growing skating community. Join us for a day filled with excitement and unforgettable memories. It's an event you don't want to miss!",
       action: 'REGISTER NOW',
     }
   },
@@ -39,7 +39,7 @@ export default {
           <!-- Adjusted size/margin -->
           {{ details }}
         </p>
-        <button class="btn text-lg btn-secondary w-fit" @click="openLink()">
+        <button class="btn font-semibold text-lg btn-secondary w-fit" @click="openLink()">
           {{ action }}
         </button>
       </div>

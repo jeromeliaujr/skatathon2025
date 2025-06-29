@@ -4,6 +4,7 @@ import emblaCarouselVue from 'embla-carousel-vue'
 import Autoplay from 'embla-carousel-autoplay'
 
 const title = 'SPONSORS'
+const subtitle = 'TO BE REVEALED'
 const images = ref([
   { src: '/sponsor1.webp', alt: 'Sponsor 1 Logo' },
   { src: '/sponsor2.webp', alt: 'Sponsor 2 Logo' },
@@ -35,25 +36,11 @@ const [emblaRef] = emblaCarouselVue(
       <div class="flex flex-col items-center w-full">
         <h1 class="text-4xl md:text-5xl font-bold font-varsity text-left mb-20">{{ title }}</h1>
         <!-- Embla Viewport: ref and overflow hidden required -->
-         
-        <div class="embla" ref="emblaRef">
-          <!-- Embla Container: flex required -->
-          <div class="embla__container">
-            <!-- Loop through images -->
-            <div class="embla__slide" v-for="(image, index) in images" :key="index">
-              <!-- Slide Content Wrapper (for potential gap/padding) -->
-              <div class="embla__slide__content mx-4 flex items-center justify-center h-full">
-                <!-- Added margin for gap -->
-                <img
-                  :src="image.src"
-                  :alt="image.alt"
-                  class="block max-h-full w-40 object-contain"
-                />
-                <!-- Adjust height (h-48) and styling as needed -->
-              </div>
-            </div>
-          </div>
-        </div>
+        <h1
+          class="text-3xl md:text-4xl lg:text-5xl pl-5 pr-5 pt-2 pb-2 mb-6 md:mb-10 font-bold font-varsity bg-[#34acc0] text-[#ffffff]"
+        >
+          {{ subtitle }}
+        </h1>
       </div>
     </div>
   </div>

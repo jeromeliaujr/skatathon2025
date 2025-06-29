@@ -23,10 +23,10 @@ export default {
         },
         {
           question: 'Can I transfer my race registration if I wish to withdraw from the race?',
-          answer: 'All race registration are strictly non-transferable.',
+          answer: 'All race registrations are strictly non-transferable.',
         },
         {
-          question: 'Can I upgrade / downgrade my race category',
+          question: 'Can I upgrade / downgrade my race category?',
           answer: 'Unfortunately, changes to race categories are not allowed once registration is confirmed. Please double-check your category before finalizing your registration.',
         },
         {
@@ -35,7 +35,7 @@ export default {
             'Helmets are compulsory to participate in Skatathon. Skaters must show their helmets at registration, or they would be turned away.',
         },
         {
-          question: 'What happens if it rains',
+          question: 'What happens if it rains?',
           answer:
             'Seek immediate shelter! We will wait out and give some time for the floor to dry up. If the rain persists till 10:30am, the race will unfortunately be cancelled without refunds. Please refer to the e-guide for more information regarding wet weather plans.',
         },
@@ -72,11 +72,11 @@ export default {
             'Skatathon 2025 will be held on Sunday, 31 August 2025 from 0645 - 1330.',
         },
         {
-          question: 'Where will the race be held',
+          question: 'Where will the race be held?',
           answer: 'The race will be held at Passion Wave @ Marina Bay.',
         },
         {
-          question: "How do I know which wave I'm assigned to",
+          question: "How do I know which wave I'm assigned to?",
           answer:
             'Each participant would be assigned a race bib number after registering on race day. Participants will be assigned to the waves according to their race bib numbers.',
         },
@@ -135,9 +135,9 @@ export default {
             >
               <input type="checkbox" name="my-accordion-2" />
 
-              <div class="collapse-title font-semibold text-lg sm:text-xl md:text-2xl  text-left">{{ item.question }}</div>
+              <div class="collapse-title font-semibold text-lg text-left">{{ item.question }}</div>
               <div class="collapse-content text-sm">
-                <p class="sm:text-lg md:text-xl text-left">{{ item.answer }}</p>
+                <p class="text-lg text-left">{{ item.answer }}</p>
               </div>
             </div>
           </div>

@@ -4,14 +4,14 @@ export default {
     return {
       title: 'RACE GUIDE',
       details:
-        "Download SMU Skatathon's Race e-Guide to access detailed information about the race, program highlights, the race route, and much more! The e-Guide provides you with the necessary knowledge for a great Skatathon.",
-      action: 'VIEW',
+        "Download the official SMU Skatathon's Race E-Guide to instantly access detailed information about the race, program highlights, routes, and much more! All conveniently organized in one place for a seamless and exciting skatathon.",
+      action: 'DOWNLOAD',
 
     }
   },
    methods: {
     openLink() {
-      window.open('https://drive.google.com/file/d/1DKqMQXB1K6XtTten6KCqnEhhmm0RcsyR/view?usp=sharing', '_blank');
+      window.open('https://www.dropbox.com/scl/fi/dz2wfrlxjpgzft6ucgl5c/SMU-Skatathon-2025-Race-E-Guide-Updated-as-of-30-06-2025.pdf?rlkey=d5vz8hhqnazv09s06xrf7qlg6&st=vesfnz3g&dl=0', '_blank');
     }
   }
 }
@@ -26,12 +26,12 @@ export default {
           <img src="/guide.png" alt="Movie" class="p-8 sm:p-12 md:p-16 lg:p-20" />
         </figure>
         <div class="card-body lg:w-3/6">
-          <h1 class="text-4xl md:text-5xl font-bold font-varsity mb-10 text-left">{{ title }}</h1>
+          <h1 class="text-4xl md:text-5xl font-bold font-varsity mt-10 mb-10 text-left">{{ title }}</h1>
           <!-- <h1 class="text-5xl mb-10 text-left font-bold font-varsity">{{ title }}</h1> -->
           <!-- Added margin-bottom -->
           <p class="text-lg text-left">{{ details }}</p>
           <button
-            class="btn text-lg btn-secondary mb-20 mt-10 md:mt-10"
+            class="btn font-semibold text-lg btn-secondary mb-20 mt-10 md:mt-10"
             @click.stop="openLink()"
           >
             {{ action }}

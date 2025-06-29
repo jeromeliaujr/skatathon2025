@@ -4,7 +4,7 @@
       <div class="flex flex-col items-center w-full px-4">
         <!-- Title -->
         <h1 class="text-4xl md:text-5xl mb-6 md:mb-8 lg:mb-10 font-bold font-varsity">
-          COUNTDOWN TO RACE DAY
+          COUNTDOWN TO SKATATHON
         </h1>
 
         <!-- Countdown Grid: DaisyUI classes and Tailwind responsive grid -->
