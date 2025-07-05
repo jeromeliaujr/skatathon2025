@@ -60,7 +60,7 @@ export default {
         { title: 'Keychain', src: '/keychain.png', alt: 'Skatathon keychain' },
         { title: 'Race Bib', src: '/racebib.png', alt: 'Race bib' },
         { title: 'Socks', src: '/socks.png', alt: 'Socks' },
-        { title: 'Sponsor Vouchers', src: '/vouchers.png', alt: 'Discount vouchers from sponsors' },
+        { title: 'Finisher Medal', src: '/medal.png', alt: 'Finisher Medal' },
       ],
     }
   },
