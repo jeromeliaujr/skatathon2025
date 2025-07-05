@@ -47,7 +47,7 @@ export default {
         {
           question: 'When is the last date to register?',
           answer:
-            'The last date to register is on the 31 July 2025.',
+            'The last date to register is 8 August 2025 at 2355',
         },
         {
           question: 'I missed the registration deadline. Can I still join the race?',
@@ -62,7 +62,7 @@ export default {
         {
           question: 'My question is not in the FAQ?',
           answer:
-            'Feel free to reach out to skating@sa.smu.edu.sg if you have other enquiries.',
+            'Feel free to reach out to skating@sa.smu.edu.sg if you have any other enquiries.',
         },
       ],
       race: [
@@ -86,7 +86,7 @@ export default {
         },
         {
           question: 'Where is the starting and ending point?',
-          answer: 'Starting Point: Area Beneath the Bay East Bridge, Ending Point: PassionWave @ Marina Bay.',
+          answer: 'Starting and Ending Point: Area Beneath the Bay East Bridge',
         },
         {
           question: 'How do I get to the venue?',

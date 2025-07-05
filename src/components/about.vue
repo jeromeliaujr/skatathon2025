@@ -12,7 +12,7 @@ export default {
   methods: {
     openLink() {
       window.open(
-        'https://www.eventbrite.sg/e/skatathon-2025-tickets-1375881010139?aff=oddtdtcreator',
+        'https://www.eventbookings.com/b/event/smu-skatathon-2025',
         '_blank',
       )
     },

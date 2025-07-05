@@ -34,7 +34,7 @@ export default {
 
     const slides = ref([
       { title: 'SMU SKATATHON 2025, 6TH EDITION', icon: ['fas', 'calendar'] },
-      { title: '31 AUGUST 2025, 0645 - 1330', icon: ['fas', 'calendar'] },
+      { title: '31 AUGUST 2025, 06.45 - 13.30', icon: ['fas', 'calendar'] },
       { title: 'PASSION WAVE @ MARINA BAY', icon: ['fas', 'calendar'] },
       { title: 'FOR SKATERS, BY SKATERS', icon: ['fas', 'calendar'] },
     ])

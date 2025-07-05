@@ -78,7 +78,7 @@ defineProps({
       <!-- Brand/Logo -->
       <!-- <a class="btn btn-ghost text-xl font-archi">SKATATHON 2025</a> -->
       <button class="btn-xl btn-circle">
-        <img src="/logo.PNG" />
+        <img src="/logo.png" />
       </button>
     </div>
 
@@ -104,7 +104,7 @@ defineProps({
     <div class="navbar-end">
       <a
         class="btn text-lg font-bold"
-        href="https://www.eventbrite.sg/e/skatathon-2025-tickets-1375881010139?aff=oddtdtcreator"
+        href="https://www.eventbookings.com/b/event/smu-skatathon-2025"
         target="_blank"
       >
         {{ link5 }}
