@@ -10,8 +10,12 @@ export default {
       general: [
         {
           question: 'What is the minimum age to participate in Skatathon 2025?',
-          answer:
-            'All age groups are welcome. However, with the safety of our younger participants in mind, we urge parents to assess the suitability of the event for their children based on their skating abilities and endurance levels. For skaters under the age of 18, please display a copy of our indemnity form with parental consent at the point of registration. You may print the PDF version found in registration form, or our confirmation email.',
+          answer: `
+        • 42km &amp; 21km – Participants must be 12 years old and above<br>
+        • 10km – Participants must be 8 years old and above<br>
+        • 4km – Open to all ages<br><br>
+        For participants 6 years old and below, we highly encourage a parent or guardian to accompany them throughout the race for safety reasons. Parents are advised to assess their child’s skating ability and endurance before registering.
+      `,
         },
         {
           question: 'How do I know if my entry has been accepted?',
@@ -23,11 +27,12 @@ export default {
         },
         {
           question: 'Can I transfer my race registration if I wish to withdraw from the race?',
-          answer: 'All race registrations are strictly non-transferable.',
+          answer: 'All tickets sold are strictly non-transferable.',
         },
         {
           question: 'Can I upgrade / downgrade my race category?',
-          answer: 'Unfortunately, changes to race categories are not allowed once registration is confirmed. Please double-check your category before finalizing your registration.',
+          answer:
+            'Unfortunately, changes to race categories are not allowed once registration is confirmed. Please double-check your category before finalizing your registration.',
         },
         {
           question: 'I do not have a helmet. Can I still join Skatathon?',
@@ -37,7 +42,7 @@ export default {
         {
           question: 'What happens if it rains?',
           answer:
-            'Seek immediate shelter! We will wait out and give some time for the floor to dry up. If the rain persists till 10:30am, the race will unfortunately be cancelled without refunds. Please refer to the e-guide for more information regarding wet weather plans.',
+            'Seek immediate shelter! We will delay and allow time for the floor to dry up. If the rain persists till 10:30am, the race will unfortunately be cancelled without refunds. Please refer to the e-guide for more information regarding wet weather plans.',
         },
         {
           question: 'What if I am injured, or am not able to complete my Skatathon route?',
@@ -46,8 +51,7 @@ export default {
         },
         {
           question: 'When is the last date to register?',
-          answer:
-            'The last date to register is 8 August 2025 at 2355',
+          answer: 'The last date to register is 8 August 2025 at 2355',
         },
         {
           question: 'I missed the registration deadline. Can I still join the race?',
@@ -68,8 +72,7 @@ export default {
       race: [
         {
           question: 'When is Skatathon 2025?',
-          answer:
-            'Skatathon 2025 will be held on Sunday, 31 August 2025 from 0645 - 1330.',
+          answer: 'Skatathon 2025 will be held on Sunday, 31 August 2025 from 0645 - 1330.',
         },
         {
           question: 'Where will the race be held?',
@@ -82,7 +85,8 @@ export default {
         },
         {
           question: 'Is there a cut off timing for the race?',
-          answer: 'Participants who do not return by 12:30pm would not have their timings recorded.',
+          answer:
+            'Participants who do not return by 12:30pm would not have their timings recorded.',
         },
         {
           question: 'Where is the starting and ending point?',
@@ -90,7 +94,8 @@ export default {
         },
         {
           question: 'How do I get to the venue?',
-          answer: 'The nearest MRT station is Tanjiong Rhu. For more details head over to our instagram page for details on how to get to Passion Wave @ Marina Bay.',
+          answer:
+            'The nearest MRT station is Tanjiong Rhu. For more details head over to our instagram page for details on how to get to Passion Wave @ Marina Bay.',
         },
         {
           question: 'Are there any prizes?',
@@ -101,7 +106,6 @@ export default {
     }
   },
 }
-
 </script>
 
 <template>
@@ -110,7 +114,13 @@ export default {
       <div class="max-w-8xl w-full">
         <h1 class="text-4xl md:text-5xl font-bold font-varsity mt-10 mb-10">{{ title }}</h1>
         <div class="tabs tabs-box flex justify-center">
-          <input type="radio" name="my_tabs_1" class="tab text-lg" aria-label="Registration" checked="checked"/>
+          <input
+            type="radio"
+            name="my_tabs_1"
+            class="tab text-lg"
+            aria-label="Registration"
+            checked="checked"
+          />
           <div class="tab-content pt-10">
             <div
               v-for="(item, index) in general"
@@ -121,7 +131,7 @@ export default {
 
               <div class="collapse-title font-semibold text-lg text-left">{{ item.question }}</div>
               <div class="collapse-content text-sm">
-                <p class="text-lg text-left">{{ item.answer }}</p>
+                <p class="text-lg text-left" v-html="item.answer"></p>
               </div>
             </div>
           </div>
