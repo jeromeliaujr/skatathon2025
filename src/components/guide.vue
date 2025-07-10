@@ -26,7 +26,7 @@ export default {
           <img src="/guide.png" alt="Movie" class="p-8 sm:p-12 md:p-16 lg:p-20" />
         </figure>
         <div class="card-body lg:w-3/6">
-          <h1 class="text-4xl md:text-5xl font-bold font-varsity mt-10 mb-10 text-left">{{ title }}</h1>
+          <h1 class="text-4xl md:text-5xl font-varsity mt-10 mb-10 text-left">{{ title }}</h1>
           <!-- <h1 class="text-5xl mb-10 text-left font-bold font-varsity">{{ title }}</h1> -->
           <!-- Added margin-bottom -->
           <p class="text-lg text-left">{{ details }}</p>

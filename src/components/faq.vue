@@ -112,7 +112,7 @@ export default {
   <div class="hero bg-base-200 min-h-[50vh]">
     <div class="hero-content text-center">
       <div class="max-w-8xl w-full">
-        <h1 class="text-4xl md:text-5xl font-bold font-varsity mt-10 mb-10">{{ title }}</h1>
+        <h1 class="text-4xl md:text-5xl font-varsity mt-10 mb-10">{{ title }}</h1>
         <div class="tabs tabs-box flex justify-center">
           <input
             type="radio"

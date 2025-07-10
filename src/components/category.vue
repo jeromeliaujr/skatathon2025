@@ -4,12 +4,12 @@
     <!-- Added horizontal padding px-4 -->
     <div class="hero-content text-center flex flex-col items-center">
       <h1
-        class="text-4xl lg:text-5xl mt-6 md:mt-8 mb-6 md:mb-10 font-bold font-varsity"
+        class="text-4xl lg:text-5xl mt-6 md:mt-8 mb-6 md:mb-10 font-varsity"
       >
         {{ title }}
       </h1>
       <h1
-        class="text-3xl md:text-4xl lg:text-5xl pl-5 pr-5 pt-2 pb-2 mb-6 md:mb-10 font-bold font-varsity bg-[#34acc0] text-[#ffffff]"
+        class="text-3xl md:text-4xl lg:text-5xl pl-5 pr-5 pt-2 pb-2 mb-6 md:mb-10 font-varsity bg-[#34acc0] text-[#ffffff]"
       >
         {{ subtitle }}
     </h1>

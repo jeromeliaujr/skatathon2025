@@ -34,7 +34,7 @@ export default {
     <div class="hero-content flex-col lg:flex-row text-neutral-content">
       <div class="text-center flex flex-col items-center">
         <!-- Added max-width -->
-        <h1 class="mb-5 text-4xl md:text-5xl font-bold font-varsity">{{ headline }}</h1>
+        <h1 class="mb-5 text-4xl md:text-5xl font-varsity">{{ headline }}</h1>
         <!-- Responsive text -->
         <p class="sm:text-lg md:text-xl mb-6">
           <!-- Adjusted size/margin -->

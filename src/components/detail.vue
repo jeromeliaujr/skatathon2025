@@ -10,7 +10,7 @@
           >
             <div class="embla__slide__content flex items-center justify-center h-full p-4 mr-15">
               <font-awesome-icon :icon="slide.icon" />
-              <p class="text-3xl sm:text-4xl md:text-5xl font-bold font-varsity">
+              <p class="text-3xl sm:text-4xl md:text-5xl font-varsity">
                 <!-- <p class="text-xl md:text-5xl lg:text-6xl font-bold font-archi text-center"> -->
                 {{ slide.title }}
               </p>

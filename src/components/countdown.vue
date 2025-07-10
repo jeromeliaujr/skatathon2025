@@ -3,7 +3,7 @@
     <div class="hero-content text-center">
       <div class="flex flex-col items-center w-full px-4">
         <!-- Title -->
-        <h1 class="text-4xl md:text-5xl mb-6 md:mb-8 lg:mb-10 font-bold font-varsity">
+        <h1 class="text-4xl md:text-5xl mb-6 md:mb-8 lg:mb-10 font-varsity">
           COUNTDOWN TO SKATATHON
         </h1>
 
