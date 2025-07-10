@@ -3,9 +3,7 @@
     <!-- Added vertical padding -->
     <!-- Added horizontal padding px-4 -->
     <div class="hero-content text-center flex flex-col items-center">
-      <h1 class="text-4xl lg:text-5xl mt-6 md:mt-8 mb-6 md:mb-10 font-varsity">
-        GALLERY
-      </h1>
+      <h1 class="text-4xl lg:text-5xl mt-6 md:mt-8 mb-6 md:mb-10 font-varsity">GALLERY</h1>
       <div class="embla">
         <!-- Main Carousel -->
         <div class="embla__viewport" ref="emblaMainRef">
@@ -39,7 +37,8 @@
                     <img :src="slide" alt="Thumbnail" class="w-full h-full object-cover" />
                     <div
                       v-if="index === selectedIndex"
-                      class="absolute inset-0 bg-opacity-30 rounded-xl ring-2 ring-white" style="background-color: rgba(50,50,50,0.8)"
+                      class="absolute inset-0 bg-opacity-30 rounded-xl ring-2 ring-white"
+                      style="background-color: rgba(50, 50, 50, 0.8)"
                     ></div>
                   </button>
                 </div>
@@ -59,14 +58,16 @@ import emblaCarouselVue from 'embla-carousel-vue'
 const slides = [
   '/skatathon1.JPG',
   '/skatathon2.JPG',
+  '/skatathon10.JPG',
   '/skatathon3.JPG',
   '/skatathon4.JPG',
   '/skatathon5.JPG',
   '/skatathon6.jpg',
-  '/skatathon7.jpg',
+  '/skatathon12.JPG',
+  '/skatathon7.JPG',
   '/skatathon8.jpg',
   '/skatathon9.jpg',
-  '/skatathon10.jpg',
+  '/skatathon11.jpg',
 ]
 
 const selectedIndex = ref(0)

@@ -5,16 +5,13 @@ export default {
     return {
       headline: 'THE ONLY SKATING MARATHON IN SINGAPORE',
       details:
-        "SMU SKATATHON 2025 is the sixth official skating marathon, proudly organized by the SMU SMUX Skating Team. Featuring four dynamic categories for skaters of every skill level, this event is your chance to push your limits, connect with other passionate skaters and be part of the growing skating community. Join us for a day filled with excitement and unforgettable memories. It's an event you don't want to miss!",
+        "SMU SKATATHON 2025 is the sixth official inline skating marathon, proudly organised by the SMU SMUX Skating Team. Featuring four dynamic categories for skaters of every skill level, this event is your chance to push your limits, connect with other passionate skaters and be part of the growing skating community. Join us for a day filled with excitement and unforgettable memories. It's an event you don't want to miss!",
       action: 'REGISTER NOW',
     }
   },
   methods: {
     openLink() {
-      window.open(
-        'https://www.eventbookings.com/b/event/smu-skatathon-2025',
-        '_blank',
-      )
+      window.open('https://www.eventbookings.com/b/event/smu-skatathon-2025', '_blank')
     },
   },
 }
@@ -26,7 +23,7 @@ export default {
     class="hero min-h-[75vh] bg-cover bg-center bg-fixed"
     style="background-image: url('/about2.jpg')"
   >
-    <div class="hero-overlay bg-opacity-80" style="background-color: rgba(50, 50, 50, 0.8)"></div>
+    <div class="hero-overlay bg-primary/75"></div>
     <!-- Adjusted opacity slightly -->
 
     <!-- Content remains the same, scrolls over the fixed background -->

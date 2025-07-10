@@ -11,6 +11,7 @@ import social from './components/social.vue'
 import grid from './components/grid.vue'
 import about from './components/about.vue'
 import detail from './components/detail.vue'
+import volunteer from './components/volunteer.vue'
 </script>
 <template>
   <header>
@@ -35,6 +36,7 @@ import detail from './components/detail.vue'
     <section id="faq">
       <faq />
     </section>
+    <volunteer id="volunteer"/>
     <social />
   </main>
 </template>
