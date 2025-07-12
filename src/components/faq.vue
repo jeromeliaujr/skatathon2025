@@ -51,7 +51,7 @@ export default {
         },
         {
           question: 'When is the last date to register?',
-          answer: 'The last date to register is 8 August 2025 at 2355',
+          answer: 'The last date to register is 9 August 2025 at 2355',
         },
         {
           question: 'I missed the registration deadline. Can I still join the race?',
