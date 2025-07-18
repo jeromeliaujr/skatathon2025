@@ -6,14 +6,14 @@ import Autoplay from 'embla-carousel-autoplay'
 const title = 'SPONSORS'
 const subtitle = 'TO BE REVEALED'
 const images = ref([
-  { src: '/sponsor1.webp', alt: 'Sponsor 1 Logo' },
-  { src: '/sponsor2.webp', alt: 'Sponsor 2 Logo' },
-  { src: '/sponsor3.png', alt: 'Sponsor 3 Logo' },
-  { src: '/sponsor4.webp', alt: 'Sponsor 4 Logo' },
-  { src: '/sponsor5.webp', alt: 'Sponsor 5 Logo' },
-  { src: '/sponsor6.png', alt: 'Sponsor 6 Logo' },
-  { src: '/sponsor7.webp', alt: 'Sponsor 7 Logo' },
-  { src: '/sponsor8.webp', alt: 'Sponsor 8 Logo' },
+  { src: '/sponsor1.png', alt: '100 Plus Logo' },
+  { src: '/sponsor2.png', alt: 'Biore Logo' },
+  { src: '/sponsor3.avif', alt: 'Go Rental Logo' },
+  // { src: '/sponsor4.webp', alt: 'Sunpride Logo' },
+  { src: '/sponsor5.png', alt: 'Clear Vision Logo' },
+  { src: '/sponsor6.webp', alt: 'SMU Logo' },
+  { src: '/sponsor7.png', alt: 'Food Kingdom Group Logo' },
+  { src: '/sponsor8.webp', alt: ' Advagen' },
 ])
 
 // --- Embla Carousel Setup ---
@@ -34,13 +34,26 @@ const [emblaRef] = emblaCarouselVue(
   <div class="hero bg-base-100 min-h-[50vh] p-5">
     <div class="hero-content text-center w-full px-4">
       <div class="flex flex-col items-center w-full">
-        <h1 class="text-4xl md:text-5xl font-bold font-varsity text-left mb-20">{{ title }}</h1>
+        <h1 class="text-4xl md:text-5xl font-varsity text-left mb-20">{{ title }}</h1>
         <!-- Embla Viewport: ref and overflow hidden required -->
-        <h1
-          class="text-3xl md:text-4xl lg:text-5xl pl-5 pr-5 pt-2 pb-2 mb-6 md:mb-10 font-bold font-varsity bg-[#34acc0] text-[#ffffff]"
-        >
-          {{ subtitle }}
-        </h1>
+        <div class="embla" ref="emblaRef">
+          <!-- Embla Container: flex required -->
+          <div class="embla__container">
+            <!-- Loop through images -->
+            <div class="embla__slide" v-for="(image, index) in images" :key="index">
+              <!-- Slide Content Wrapper (for potential gap/padding) -->
+              <div class="embla__slide__content mx-4 flex items-center justify-center h-full">
+                <!-- Added margin for gap -->
+                <img
+                  :src="image.src"
+                  :alt="image.alt"
+                  class="block max-h-full w-40 object-contain"
+                />
+                <!-- Adjust height (h-48) and styling as needed -->
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

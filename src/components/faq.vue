@@ -11,10 +11,12 @@ export default {
         {
           question: 'What is the minimum age to participate in Skatathon 2025?',
           answer: `
-        • 42km &amp; 21km – Participants must be 12 years old and above<br>
+          All ages are welcome to participate! <br><br>
+          To ensure a safe and enjoyable experience for everyone, we recommend the following minimum ages for each category: <br>
+          • 42km &amp; 21km – Participants must be 12 years old and above<br>
         • 10km – Participants must be 8 years old and above<br>
         • 4km – Open to all ages<br><br>
-        For participants 6 years old and below, we highly encourage a parent or guardian to accompany them throughout the race for safety reasons. Parents are advised to assess their child’s skating ability and endurance before registering.
+        We strongly encourage parents and guardians to consider their child’s skating ability and endurance before registering.
       `,
         },
         {

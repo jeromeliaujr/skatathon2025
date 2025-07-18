@@ -55,11 +55,11 @@ export default {
       title: 'RACE ENTITLEMENTS',
       subtitle: 'TO BE REVEALED',
       entitlements: [
-        { title: 'Tote Bag', src: '/totebag.png', alt: 'Race tote bag' },
+        { title: 'Drawstring Bag', src: '/drawstringbag.png', alt: 'Race draw string bag' },
         { title: 'Skatathon Tee', src: '/tee.png', alt: 'Skatathon tee' },
-        { title: 'Keychain', src: '/keychain.png', alt: 'Skatathon keychain' },
+        { title: 'Consumables', src: '/consumables.png', alt: 'Consumables' },
         { title: 'Race Bib', src: '/racebib.png', alt: 'Race bib' },
-        { title: 'Socks', src: '/socks.png', alt: 'Socks' },
+        { title: 'Skatathon Socks', src: '/socks.png', alt: 'Socks' },
         { title: 'Finisher Medal', src: '/medal.png', alt: 'Finisher Medal' },
       ],
     }
