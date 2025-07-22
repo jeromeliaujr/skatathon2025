@@ -9,11 +9,11 @@
         <h1 class="text-4xl lg:text-5xl mb-8 md:mb-12 lg:mb-16 font-varsity">
           {{ title }}
         </h1>
-        <h1
+        <!-- <h1
           class="text-3xl md:text-4xl lg:text-5xl pl-5 pr-5 pt-2 pb-2 mb-6 md:mb-10 font-varsity bg-[#34acc0] text-[#ffffff]"
         >
           {{ subtitle }}
-        </h1>
+        </h1> -->
 
         <!-- Grid Layout: Responsive columns and gap -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
