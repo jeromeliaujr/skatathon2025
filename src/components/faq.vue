@@ -68,7 +68,7 @@ export default {
         {
           question: 'My question is not in the FAQ?',
           answer:
-            'Feel free to reach out to skating@sa.smu.edu.sg if you have any other enquiries.',
+            'Feel free to reach out to skating@sa.smu.edu.sg via email or @smuskatathon on Instagram if you have any other enquiries.',
         },
       ],
       race: [
