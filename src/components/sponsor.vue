@@ -9,7 +9,7 @@ const images = ref([
   { src: '/sponsor1.png', alt: '100 Plus Logo' },
   { src: '/sponsor2.png', alt: 'Biore Logo' },
   { src: '/sponsor3.avif', alt: 'Go Rental Logo' },
-  // { src: '/sponsor4.webp', alt: 'Sunpride Logo' },
+  { src: '/sponsor4.png', alt: 'Sunpride Logo' },
   { src: '/sponsor5.png', alt: 'Clear Vision Logo' },
   { src: '/sponsor6.webp', alt: 'SMU Logo' },
   { src: '/sponsor7.png', alt: 'Food Kingdom Group Logo' },
