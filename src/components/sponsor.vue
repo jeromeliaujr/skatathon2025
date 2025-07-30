@@ -6,6 +6,7 @@ import Autoplay from 'embla-carousel-autoplay'
 const title = 'SPONSORS'
 const subtitle = 'TO BE REVEALED'
 const images = ref([
+  { src: '/sponsor10.png', alt: 'Inlinex' },
   { src: '/sponsor1.png', alt: '100 Plus Logo' },
   { src: '/sponsor2.png', alt: 'Biore Logo' },
   { src: '/sponsor3.avif', alt: 'Go Rental Logo' },
@@ -13,7 +14,7 @@ const images = ref([
   { src: '/sponsor5.png', alt: 'Clear Vision Logo' },
   { src: '/sponsor6.webp', alt: 'SMU Logo' },
   { src: '/sponsor7.png', alt: 'Food Kingdom Group Logo' },
-  { src: '/sponsor8.webp', alt: ' Advagen' },
+  { src: '/sponsor8.webp', alt: 'Advagen' },
 ])
 
 // --- Embla Carousel Setup ---
