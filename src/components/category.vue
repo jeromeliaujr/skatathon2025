@@ -53,7 +53,7 @@ export default {
   data() {
     return {
       title: 'RACE CATEGORIES & PRICING',
-      subtitle: 'EARLY BIRD SPECIAL TILL 31 JULY 2025',
+      subtitle: 'OUR TICKETS ARE ALL SOLD OUT',
 
       categories: [
         { title: '4km', src: '/4km.png', alt: '4km' },

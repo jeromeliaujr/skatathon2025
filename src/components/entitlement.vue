@@ -61,6 +61,9 @@ export default {
         { title: 'Race Bib', src: '/racebib.png', alt: 'Race bib' },
         { title: 'Skatathon Socks', src: '/socks.png', alt: 'Socks' },
         { title: 'Finisher Medal', src: '/medal.png', alt: 'Finisher Medal' },
+        { title: 'Towel', src: '/towel.png', alt: 'Towel' },
+        { title: 'Wheel Cover', src: '/cover.png', alt: 'Wheel Cover' },
+        { title: 'Vouchers', src: '/vouchers.png', alt: 'Vouchers' },
       ],
     }
   },

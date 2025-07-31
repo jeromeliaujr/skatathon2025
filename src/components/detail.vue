@@ -33,10 +33,12 @@ export default {
     const emblaApi = ref(null)
 
     const slides = ref([
-      { title: 'SMU SKATATHON 2025, 6TH EDITION', icon: ['fas', 'calendar'] },
-      { title: '31 AUGUST 2025, 06.45 - 13.30', icon: ['fas', 'calendar'] },
-      { title: 'PASSION WAVE @ MARINA BAY', icon: ['fas', 'calendar'] },
-      { title: 'FOR SKATERS, BY SKATERS', icon: ['fas', 'calendar'] },
+      // { title: 'SMU SKATATHON 2025, 6TH EDITION', icon: ['fas', 'calendar'] },
+      // { title: '31 AUGUST 2025, 06.45 - 13.30', icon: ['fas', 'calendar'] },
+      // { title: 'PASSION WAVE @ MARINA BAY', icon: ['fas', 'calendar'] },
+      { title: 'THANK YOU FOR YOUR SUPPORT', icon: ['fas', 'calendar'] },
+      { title: 'OUR TICKETS ARE ALL SOLD OUT', icon: ['fas', 'calendar'] },
+      { title: 'SEE YOU ON 31 AUGUST 2025', icon: ['fas', 'calendar'] },
     ])
 
     onMounted(() => {
