@@ -11,7 +11,7 @@ export default {
   },
    methods: {
     openLink() {
-      window.open('https://www.dropbox.com/scl/fi/08svgr989ya3ba624g5z2/SMU-Skatathon-2025-Race-E-Guide.pdf?rlkey=5xfirchom2mm6ltncxqx1rtpk&st=9p1ze6y7&dl=0', '_blank');
+      window.open('https://www.dropbox.com/scl/fi/l1wlqruoq13n06mh6r36f/SMU-Skatathon-2025-Race-E-Guide.pdf?rlkey=jou4ut4xkxzm24ful8e572huv&st=a5kx8pu5&dl=0', '_blank');
     }
   }
 }
