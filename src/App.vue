@@ -12,6 +12,7 @@ import grid from './components/grid.vue'
 import about from './components/about.vue'
 import detail from './components/detail.vue'
 import volunteer from './components/volunteer.vue'
+import result from './components/result.vue'
 </script>
 <template>
   <header>
@@ -19,7 +20,8 @@ import volunteer from './components/volunteer.vue'
   </header>
   <main>
     <banner />
-    <detail/>
+    <detail />
+    <result />
     <countdown />
     <about />
     <section id="guide">
@@ -36,7 +38,7 @@ import volunteer from './components/volunteer.vue'
     <section id="faq">
       <faq />
     </section>
-    <volunteer id="volunteer"/>
+    <!-- <volunteer id="volunteer"/> -->
     <social />
   </main>
 </template>

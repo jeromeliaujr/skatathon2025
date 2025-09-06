@@ -26,10 +26,6 @@ defineProps({
     type: String,
     default: 'FAQ',
   },
-  link5: {
-    type: String,
-    default: 'VOLUNTEER',
-  },
   link6: {
     type: String,
     default: 'REGISTER NOW',
