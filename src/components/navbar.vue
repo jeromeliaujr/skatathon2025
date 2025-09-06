@@ -73,9 +73,7 @@ defineProps({
           <li>
             <RouterLink :to="{ hash: '#faq' }">{{ link4 }}</RouterLink>
           </li>
-          <li>
-            <RouterLink :to="{ hash: '#volunteer' }">{{ link5 }}</RouterLink>
-          </li>
+
         </ul>
       </div>
       <!-- Brand/Logo -->
@@ -99,9 +97,6 @@ defineProps({
         </li>
         <li>
           <RouterLink to="#faq" class="text-xl font-archi">{{ link4 }}</RouterLink>
-        </li>
-        <li>
-          <RouterLink to="#volunteer" class="text-xl font-archi">{{ link5 }}</RouterLink>
         </li>
       </ul>
     </nav>
