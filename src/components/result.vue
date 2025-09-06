@@ -44,9 +44,9 @@ onMounted(() => {
   <div class="hero bg-base-100 min-h-[50vh] py-10">
     <div class="hero-content flex-col text-center w-full px-6">
       <h1 class="text-4xl md:text-5xl font-varsity tracking-wide">RESULTS</h1>
-      <div class="card lg:card-side p-10 w-full pb-2">
+      <div class="card lg:card-side p-10 w-full pb-2 overflow-x-auto">
         <div class="flex flex-col items-center w-full px-4">
-          <div class="flex items-center gap-3 mb-6 md:mb-10 justify-center min-w-md mx-auto">
+          <div class="flex items-center gap-3 mb-6 md:mb-10 justify-center mx-auto">
             <input
               type="search"
               v-model="searchTerm"
