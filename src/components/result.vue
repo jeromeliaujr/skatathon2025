@@ -42,7 +42,7 @@ onMounted(() => {
 
 <template>
   <div class="hero bg-base-100 min-h-[50vh] py-10">
-    <div class="hero-content flex-col text-center w-full px-6">
+    <div class="hero-content flex-col text-center w-screen">
       <h1 class="text-4xl md:text-5xl font-varsity tracking-wide">RESULTS</h1>
       <div class="card lg:card-side p-10 w-full pb-2 overflow-x-auto">
         <div class="flex flex-col items-center w-full px-4">
